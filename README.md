@@ -18,8 +18,9 @@ A Java Swing-based smart parking application that visually manages parking slots
 - Color-coded available vs occupied spots
 - Entry time tracking and fee calculation
 - Simple and intuitive user interface
+<img src="https://github.com/user-attachments/assets/23501119-ba8a-4181-89b8-2e06fba8ce24" width="400"/>
 
-![Smart Parking System](https://github.com/user-attachments/assets/23501119-ba8a-4181-89b8-2e06fba8ce24)
+
 
 ---
 
@@ -33,4 +34,5 @@ A Java GUI that computes all possible paths from a selected starting location to
 - Total cost breakdown per route
 - Clean grid-based UI for selection
 
-![Pathfinder](https://github.com/user-attachments/assets/8c9e22db-54df-41d7-95b3-2c27b179d446)
+<img src="https://github.com/user-attachments/assets/8c9e22db-54df-41d7-95b3-2c27b179d446" width="400"/>
+
