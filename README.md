@@ -36,8 +36,8 @@ A Java GUI that computes all possible paths from a selected starting location to
 
 <img src="https://github.com/user-attachments/assets/8c9e22db-54df-41d7-95b3-2c27b179d446" width="400"/>
 
-
-📍 Restaurant Success Predictor
+---
+### 🔹 Restaurant Success Predictor 
 ML web app to predict restaurant success in Dhaka based on map coordinates.
 
 🔹 Features
