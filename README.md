@@ -39,12 +39,12 @@ A Java GUI that computes all possible paths from a selected starting location to
 ---
 ### 🔹 Restaurant Success Predictor 
 ML web app to predict restaurant success in Dhaka based on map coordinates.
-🔹 Features
+🔹 **Features**
 -Interactive heatmap of success rates
 -Click any location to get instant predictions
 -Success shown in % and 0–10 scale
 -Built with Streamlit, Scikit-learn, Folium
-🔹 How It Works
+🔹 **How It Works**
 -Click anywhere on the map.
 -ML model finds the nearest restaurant data.
 -Shows predicted success rate visually.
