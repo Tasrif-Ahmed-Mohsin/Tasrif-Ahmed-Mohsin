@@ -47,8 +47,8 @@ ML web app to predict restaurant success in Dhaka based on map coordinates.
  - Built with Streamlit, Scikit-learn, Folium
    
 🔹 **How It Works**
--Click anywhere on the map.
--ML model finds the nearest restaurant data.
--Shows predicted success rate visually.
+- Click anywhere on the map.
+- ML model finds the nearest restaurant data.
+- Shows predicted success rate visually.
 <img src="https://github.com/user-attachments/assets/f18161ae-3f16-450a-9dce-47a97c454802" width="600"/>
 
