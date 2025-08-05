@@ -14,7 +14,7 @@ A Java Swing-based smart parking application that visually manages parking slots
 
 🛠 **Tech Used:** Java, Swing 
 🎯 **Features:**
-- Dynamic table showing real-time parking status
+- Dynamic table showing  real-time parking status
 - Color-coded available vs occupied spots
 - Entry time tracking and fee calculation
 - Simple and intuitive user interface
