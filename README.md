@@ -9,7 +9,7 @@
 
 ## 🚀 Featured Projects
 
-### 🔹 Smart Parking System 
+### 🔹 Smart Parking System .
 A Java Swing-based smart parking application that visually manages parking slots, allows users to park/remove cars, and calculates parking duration and fee.
 
 🛠 **Tech Used:** Java, Swing 
