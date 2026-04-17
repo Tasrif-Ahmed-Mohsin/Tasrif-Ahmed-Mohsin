@@ -52,3 +52,19 @@ ML web app to predict restaurant success in Dhaka based on map coordinates.
 - Shows predicted success rate visually.
 <img src="https://github.com/user-attachments/assets/f18161ae-3f16-450a-9dce-47a97c454802" width="600"/>
 
+
+---
+### ?? AliScrap API
+A robust data extraction API built to bypass bot detection and scrape complete product details from Alibaba and 1688 product pages.
+
+?? **Tech Used:** Node.js, Express, Puppeteer
+?? **Features:**
+- Extracts complete details: Titles, Pricing, Sales Count, SKU variant mappings, and Image Galleries.
+- Headless browsing (Puppeteer) to bypass bot protection and render complex JavaScript.
+- RESTful API Endpoint returning structured JSON data instantly.
+- Included interactive web interface.
+
+---
+### ?? AnimeWorld
+A recently deployed project. *(Check out the repository for more details!)*
+
