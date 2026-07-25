@@ -1,4 +1,4 @@
-Hey, I'm Tasrif,
+Hey, I'm Tasrif.
 
 # A SOFTWARE DEVELOPER & *AI ENTHUSIAST*
 
@@ -7,13 +7,6 @@ Hey, I'm Tasrif,
 <p align="left">
   <a href="mailto:tasrifahmedmohsin@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-000000?style=for-the-badge&logo=maildotru&logoColor=ffffff" alt="Contact Me"/></a>
 </p>
-
-<br/>
-
-<!-- HERO PORTRAIT — circle-cropped, B&W, floats on the right on wide screens, stacks below on mobile -->
-<img align="right" src="https://github.com/Tasrif-Ahmed-Mohsin/Tasrif-Ahmed-Mohsin/blob/main/assets/profile.png?raw=true" width="340" alt="Tasrif Ahmed" style="border-radius: 50%; border: 2px solid #000; filter: grayscale(100%); aspect-ratio: 1/1; object-fit: cover;"/>
-
-<br clear="right"/>
 
 ---
 
@@ -56,7 +49,9 @@ A focused, no-fluff stack — sharp on algorithms, fluent across the web, and st
 
 ## CRAFTING SYSTEMS & SOFTWARE WITH INTENT
 
-I'm a CS undergrad at BRAC University building software that's deliberate — code that's meant to be read, products that solve a real problem, and experiments that teach me something I didn't know yesterday. My current focus is computer-vision and applied ML, with a soft spot for graph algorithms and clean UI work. I prefer shipping over perfecting.
+I'm currently pursuing my Bachelor of Computer Science at BRAC University, having previously completed my SSC from Dhaka College. I'm a passionate software developer with a strong focus on algorithmic problem solving, machine learning, and robust application development.
+
+While I am not yet working professionally, I love building personal projects and smart systems that solve real-world problems. Whether I'm mapping graph-based routes in Java, predicting data trends with Python, or training computer vision models, I approach every project with curiosity and precision.
 
 ---
 
