@@ -1,7 +1,5 @@
 Hey, I'm Tasrif.
 
-# A SOFTWARE DEVELOPER & *AI ENTHUSIAST*
-
 **Building digital experiences that make waves.**
 
 <p align="left">
@@ -12,7 +10,7 @@ Hey, I'm Tasrif.
 
 ## WHAT I WORK WITH
 
-A focused, no-fluff stack — sharp on algorithms, fluent across the web, and steadily building toward production-grade AI systems.
+A focused, no-fluff stack. Sharp on algorithms, fluent across the web, steadily building toward production-grade AI systems.
 
 <table>
   <tr>
@@ -57,7 +55,7 @@ While I am not yet working professionally, I love building personal projects and
 
 ## FEATURED WORK
 
-A curated set — chosen for technical depth, not chronology.
+A curated set, chosen for technical depth over chronology.
 
 ### Gun Detection with YOLOv10
 End-to-end real-time object detection pipeline built on YOLOv10, trained to localize firearms in video frames.
@@ -75,7 +73,7 @@ End-to-end real-time object detection pipeline built on YOLOv10, trained to loca
 ---
 
 ### Restaurant Success Predictor
-ML web app that estimates restaurant success across Dhaka from map coordinates — interactive heatmap, instant predictions, deployed on Streamlit.
+ML web app that estimates restaurant success across Dhaka from map coordinates. Interactive heatmap, instant predictions, deployed on Streamlit.
 - Nearest-neighbor lookup against a curated Dhaka restaurant dataset
 - Folium heatmap rendering with click-to-predict interaction
 - Streamlit front-end with responsive controls
@@ -119,7 +117,7 @@ A Java GUI that computes all possible routes from a chosen starting area to BRAC
 ---
 
 ### Robo-Pekka
-C++ robotics project — a working Pekka-style bot focused on the systems side: input handling, state, and deterministic behavior.
+C++ robotics project. A working Pekka-style bot focused on the systems side: input handling, state, and deterministic behavior.
 - Built close to the metal in modern C++
 - Emphasizes modular logic over visual flair
 - Worth a look if you care about how bots actually *decide*
@@ -202,4 +200,6 @@ Pick whichever channel is least awkward.
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=80&section=footer" width="100%" alt="Footer"/>
+<p align="center">
+  <sub><b>Tasrif Ahmed Mohsin</b> &nbsp;·&nbsp; BRAC University &nbsp;·&nbsp; Dhaka, Bangladesh</sub>
+</p>
