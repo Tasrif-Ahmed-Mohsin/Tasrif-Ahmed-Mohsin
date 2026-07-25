@@ -1,3 +1,5 @@
+<div style="background-color:#F5EFE0; padding:48px 32px; border-radius:8px; border:1px solid #00000022;">
+
 Hey, I'm Tasrif.
 
 **Building digital experiences that make waves.**
@@ -6,8 +8,7 @@ Hey, I'm Tasrif.
   <a href="mailto:tasrifahmedmohsin@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-000000?style=for-the-badge&logo=maildotru&logoColor=ffffff" alt="Contact Me"/></a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ## WHAT I WORK WITH
 
 A focused, no-fluff stack. Sharp on algorithms, fluent across the web, steadily building toward production-grade AI systems.
@@ -43,16 +44,14 @@ A focused, no-fluff stack. Sharp on algorithms, fluent across the web, steadily 
   </tr>
 </table>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ## CRAFTING SYSTEMS & SOFTWARE WITH INTENT
 
 I'm currently pursuing my Bachelor of Computer Science at BRAC University, having previously completed my SSC from Dhaka College. I'm a passionate software developer with a strong focus on algorithmic problem solving, machine learning, and robust application development.
 
 While I am not yet working professionally, I love building personal projects and smart systems that solve real-world problems. Whether I'm mapping graph-based routes in Java, predicting data trends with Python, or training computer vision models, I approach every project with curiosity and precision.
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ## FEATURED WORK
 
 A curated set, chosen for technical depth over chronology.
@@ -70,8 +69,7 @@ End-to-end real-time object detection pipeline built on YOLOv10, trained to loca
   <a href="https://github.com/Tasrif-Ahmed-Mohsin/Gun-detection-with-yolov10"><img src="https://img.shields.io/badge/REPO-000000?style=flat-square&logo=github&logoColor=ffffff" alt="Repo"/></a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ### Restaurant Success Predictor
 ML web app that estimates restaurant success across Dhaka from map coordinates. Interactive heatmap, instant predictions, deployed on Streamlit.
 - Nearest-neighbor lookup against a curated Dhaka restaurant dataset
@@ -85,8 +83,7 @@ ML web app that estimates restaurant success across Dhaka from map coordinates. 
   <a href="https://github.com/Tasrif-Ahmed-Mohsin/Restaurant-Saga"><img src="https://img.shields.io/badge/REPO-000000?style=flat-square&logo=github&logoColor=ffffff" alt="Repo"/></a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ### ICT Fest Hackathon — Preliminary Round
 Submission for the ICT Fest hackathon preliminary. Built under time pressure with a focus on a working core loop and a clean demo path.
 - Problem-framing → MVP → demo in one sprint
@@ -99,8 +96,7 @@ Submission for the ICT Fest hackathon preliminary. Built under time pressure wit
   <a href="https://github.com/Tasrif-Ahmed-Mohsin/ICT_Fest_Hackathon_Preliminary_Tasrif"><img src="https://img.shields.io/badge/REPO-000000?style=flat-square&logo=github&logoColor=ffffff" alt="Repo"/></a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ### Way-to-BRAC · Pathfinder
 A Java GUI that computes all possible routes from a chosen starting area to BRAC University, with cost-aware ranking by transport mode (Rickshaw / Bus).
 - Graph-based city map with hand-tuned edge weights
@@ -114,8 +110,7 @@ A Java GUI that computes all possible routes from a chosen starting area to BRAC
   <a href="https://github.com/Tasrif-Ahmed-Mohsin/Way-to-BRAC"><img src="https://img.shields.io/badge/REPO-000000?style=flat-square&logo=github&logoColor=ffffff" alt="Repo"/></a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ### Robo-Pekka
 C++ robotics project. A working Pekka-style bot focused on the systems side: input handling, state, and deterministic behavior.
 - Built close to the metal in modern C++
@@ -128,8 +123,7 @@ C++ robotics project. A working Pekka-style bot focused on the systems side: inp
   <a href="https://github.com/Tasrif-Ahmed-Mohsin/Robo-Pekka"><img src="https://img.shields.io/badge/REPO-000000?style=flat-square&logo=github&logoColor=ffffff" alt="Repo"/></a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ## MORE WORK
 
 Everything else, organized so nothing's lost.
@@ -174,8 +168,7 @@ Everything else, organized so nothing's lost.
   </tr>
 </table>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 ## CONTACT
 
 Pick whichever channel is least awkward.
@@ -198,8 +191,9 @@ Pick whichever channel is least awkward.
   </a>
 </p>
 
----
-
+<hr style="border:none; border-top:1px solid #00000022; margin:32px 0;" />
 <p align="center">
   <sub><b>Tasrif Ahmed Mohsin</b> &nbsp;·&nbsp; BRAC University &nbsp;·&nbsp; Dhaka, Bangladesh</sub>
 </p>
+
+</div>
