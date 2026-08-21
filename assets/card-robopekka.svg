@@ -3,21 +3,25 @@
     /* Default / Universal Fallback */
     .card-outline { fill: none; stroke: #30363D; stroke-width: 1; }
     .card-inner-box { fill: none; stroke: #30363D; stroke-width: 0.8; }
-    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #58A6FF; }
-    .primary-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; fill: #C9D1D9; }
-    .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; fill: #8B949E; }
-    .meta-text { font-family: 'SF Mono', 'JetBrains Mono', Consolas, monospace; font-weight: 600; fill: #58A6FF; }
+    
+    /* Lucidity Display Font (Headers / Titles) */
+    .display-title { font-family: 'Lucidity', 'SF Pro Display', 'Space Grotesk', 'Outfit', -apple-system, sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; fill: #58A6FF; }
+    .card-title { font-family: 'Lucidity', 'SF Pro Display', 'Space Grotesk', 'Outfit', -apple-system, sans-serif; font-weight: 700; letter-spacing: 0.6px; fill: #C9D1D9; }
+    .section-meta { font-family: 'Lucidity', 'SF Mono', 'Space Grotesk', monospace; font-weight: 700; letter-spacing: 1.2px; fill: #58A6FF; }
+    
+    /* Garet Geometric Body Font */
+    .body-text { font-family: 'Garet', 'SF Pro Text', 'Inter', -apple-system, sans-serif; font-weight: 400; letter-spacing: 0.3px; fill: #8B949E; }
     .tag-border { fill: none; stroke: #30363D; stroke-width: 0.8; }
-    .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #8B949E; }
+    .tag-text { font-family: 'Garet', 'SF Pro Text', 'Inter', -apple-system, sans-serif; font-weight: 600; letter-spacing: 0.4px; fill: #8B949E; }
 
     /* Explicit Light Mode */
     @media (prefers-color-scheme: light) {
       .card-outline { stroke: #D0D7DE; }
       .card-inner-box { stroke: #D0D7DE; }
-      .title-text { fill: #0969DA; }
-      .primary-text { fill: #1F2328; }
+      .display-title { fill: #0969DA; }
+      .card-title { fill: #1F2328; }
+      .section-meta { fill: #0969DA; }
       .body-text { fill: #656D76; }
-      .meta-text { fill: #0969DA; }
       .tag-border { stroke: #D0D7DE; }
       .tag-text { fill: #656D76; }
     }
@@ -26,10 +30,10 @@
     @media (prefers-color-scheme: dark) {
       .card-outline { stroke: #30363D; }
       .card-inner-box { stroke: #30363D; }
-      .title-text { fill: #58A6FF; }
-      .primary-text { fill: #F0F6FC; }
+      .display-title { fill: #58A6FF; }
+      .card-title { fill: #F0F6FC; }
+      .section-meta { fill: #58A6FF; }
       .body-text { fill: #8B949E; }
-      .meta-text { fill: #58A6FF; }
       .tag-border { stroke: #30363D; }
       .tag-text { fill: #8B949E; }
     }
@@ -38,10 +42,10 @@
   <rect x="1" y="1" width="328" height="116" rx="8" class="card-outline" />
 
   <g transform="translate(18, 16)">
-    <text x="0" y="8" font-size="9" class="meta-text" letter-spacing="0.8">05 // EMBEDDED SYSTEMS</text>
-    <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" class="title-text" text-anchor="end">↗</text>
+    <text x="0" y="8" font-size="9" class="section-meta">05 // EMBEDDED SYSTEMS</text>
+    <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" class="display-title" text-anchor="end">↗</text>
 
-    <text x="0" y="28" font-size="13" class="primary-text">Robo-Pekka Companion</text>
+    <text x="0" y="28" font-size="12.5" class="card-title">Robo-Pekka Companion</text>
 
     <text x="0" y="45" font-size="10" class="body-text">Interactive embedded robotics firmware with animated OLED eyes,</text>
     <text x="0" y="58" font-size="10" class="body-text">servo neck kinematics, and ultrasonic proximity tracking.</text>
