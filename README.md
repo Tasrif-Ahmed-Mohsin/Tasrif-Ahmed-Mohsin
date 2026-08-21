@@ -25,7 +25,7 @@
   </tr>
 </table>
 
-<!-- SOCIAL BADGES -->
+<!-- SOCIAL LINKS -->
 <p>
   <a href="https://www.tasrif.tech/">
     <img src="https://img.shields.io/badge/Portfolio-tasrif.tech-white?style=flat-square&logo=googlechrome&logoColor=black&labelColor=white" alt="Portfolio" />
@@ -73,14 +73,14 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Tasrif-Ahmed-Mohsin/Way-to-BRAC">🚇 Way-to-BRAC Pathfinder</a></h3>
-      <p>Multimodal transit optimizer using graph traversal algorithms (DFS/BFS). Features a Java Swing GUI for interactive route visualization across Dhaka's transport network.</p>
+      <p>Multimodal transit optimizer using graph traversal algorithms (DFS/BFS). Java Swing GUI for interactive route visualization across Dhaka's transport network.</p>
       <p>
         <code>Java</code> <code>Swing GUI</code> <code>Graph DFS</code>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Tasrif-Ahmed-Mohsin/Robo-Pekka">🤖 Robo-Pekka Robotics Engine</a></h3>
-      <p>Deterministic autonomous robotics engine built with finite state machines and real-time sensor telemetry processing. Designed for predictable, reliable behavior.</p>
+      <p>Deterministic autonomous robotics engine built with finite state machines and real-time sensor telemetry processing.</p>
       <p>
         <code>C++</code> <code>Embedded</code> <code>State Machines</code>
       </p>
@@ -88,8 +88,8 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Tasrif-Ahmed-Mohsin/ICT_Fest_Hackathon_Preliminary_Tasrif">⚡ ICT Fest Hackathon Solution</a></h3>
-      <p>Rapid prototyping solution built under time pressure during a competitive hackathon. Fast problem-solving and clean implementation under constraints.</p>
+      <h3><a href="https://github.com/Tasrif-Ahmed-Mohsin/ICT_Fest_Hackathon_Preliminary_Tasrif">⚡ ICT Fest Hackathon</a></h3>
+      <p>Rapid prototyping solution built under time pressure during a competitive hackathon.</p>
       <p>
         <code>Python</code> <code>Rapid Prototype</code>
       </p>
@@ -129,39 +129,6 @@
 <img src="assets/divider.svg" alt="" width="100%" style="max-width: 600px;" />
 
 <br/>
-
-</div>
-
-## GitHub Stats
-
-<div align="center">
-
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Tasrif-Ahmed-Mohsin&show_icons=true&theme=dark&bg_color=00000000&title_color=ffffff&text_color=999999&icon_color=999999&border_color=333333&border_radius=8&hide_border=false&count_private=true" alt="GitHub Stats" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tasrif-Ahmed-Mohsin&layout=compact&theme=dark&bg_color=00000000&title_color=ffffff&text_color=999999&border_color=333333&border_radius=8&hide_border=false&langs_count=8" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tasrif-Ahmed-Mohsin&theme=dark&background=00000000&border=333333&stroke=333333&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=999999&currStreakNum=ffffff&sideNums=ffffff&dates=555555&border_radius=8" alt="GitHub Streak" width="53%" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tasrif-Ahmed-Mohsin&bg_color=00000000&color=999999&line=ffffff&point=ffffff&area_color=333333&area=true&hide_border=false&custom_title=Contribution%20Activity&border_color=333333&radius=8" alt="Activity Graph" width="100%" style="max-width: 800px;" />
-
-<br/><br/>
-
-<img src="assets/divider.svg" alt="" width="100%" style="max-width: 600px;" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Tasrif-Ahmed-Mohsin&style=flat-square&color=111111&label=views&labelColor=222222" alt="Profile Views" />
 
 <sub>Built with focus and caffeine ☕ · <a href="https://www.tasrif.tech/">tasrif.tech</a></sub>
 
