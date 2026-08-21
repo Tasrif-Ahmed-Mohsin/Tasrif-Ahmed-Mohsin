@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 90" width="660" height="90" style="background: transparent;">
+  <rect width="660" height="90" rx="16" fill="#9BB4BC"/>
+  <text x="28" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#4A6068" letter-spacing="1.5">ABOUT</text>
+  <text x="28" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#3C5560">CS undergrad at BRAC University who builds things that see, think, and move —</text>
+  <text x="28" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#3C5560">from real-time gun detection with YOLOv10 to autonomous robotics engines</text>
+  <text x="28" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#5A7580">Production-grade code, not just prototypes.</text>
+</svg>

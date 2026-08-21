@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" width="320" height="150" style="background: transparent;">
+  <rect width="320" height="150" rx="16" fill="#6B8590"/>
+  <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#E0EAED">⚡</text>
+  <text x="46" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#E0EAED">ICT Fest Hackathon</text>
+  <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">Rapid prototyping solution built</text>
+  <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">under time pressure during a</text>
+  <text x="20" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">competitive hackathon.</text>
+  <g transform="translate(20, 110)">
+    <rect x="0" y="0" width="52" height="22" rx="6" fill="#5A7580"/>
+    <text x="26" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Python</text>
+    <rect x="58" y="0" width="100" height="22" rx="6" fill="#5A7580"/>
+    <text x="108" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Rapid Prototype</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" width="320" height="150" style="background: transparent;">
+  <rect width="320" height="150" rx="16" fill="#6B8590"/>
+  <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#E0EAED">🚇</text>
+  <text x="46" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#E0EAED">Way-to-BRAC Pathfinder</text>
+  <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">Multimodal transit optimizer</text>
+  <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">using graph traversal (DFS/BFS)</text>
+  <text x="20" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">with interactive route GUI.</text>
+  <g transform="translate(20, 110)">
+    <rect x="0" y="0" width="40" height="22" rx="6" fill="#5A7580"/>
+    <text x="20" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Java</text>
+    <rect x="46" y="0" width="68" height="22" rx="6" fill="#5A7580"/>
+    <text x="80" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Swing GUI</text>
+    <rect x="120" y="0" width="72" height="22" rx="6" fill="#5A7580"/>
+    <text x="156" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Graph DFS</text>
+  </g>
+</svg>
