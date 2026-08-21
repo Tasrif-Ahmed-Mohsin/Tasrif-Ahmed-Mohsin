@@ -1,32 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 124" width="100%" height="100%" style="background: transparent;">
   <defs>
-    <linearGradient id="card-p6" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2D434F" />
-      <stop offset="100%" stop-color="#37515F" />
+    <clipPath id="va-clip">
+      <rect width="330" height="124" rx="14" />
+    </clipPath>
+    <linearGradient id="va-overlay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#26283C" stop-opacity="0.82" />
+      <stop offset="100%" stop-color="#32354F" stop-opacity="0.9" />
     </linearGradient>
   </defs>
 
   <style>
-    .idx { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #97BAC7; letter-spacing: 1px; }
-    .name { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: 700; fill: #F0F6F8; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif; font-size: 10px; fill: #ADC5CF; line-height: 1.35; }
-    .pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 8.5px; font-weight: 700; fill: #E6F3F7; }
+    .idx { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #A4A9D6; letter-spacing: 1px; }
+    .name { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: 700; fill: #F4F6FC; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif; font-size: 10px; fill: #B8BCD9; line-height: 1.35; }
+    .pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 8.5px; font-weight: 700; fill: #EFF1FB; }
   </style>
 
-  <rect x="1" y="1" width="328" height="122" rx="14" fill="url(#card-p6)" stroke="#537586" stroke-width="1.1" />
+  <g clip-path="url(#va-clip)">
+    <image href="data:image/jpeg;base64,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" width="330" height="124" preserveAspectRatio="xMidYMid slice" />
+    <rect width="330" height="124" fill="url(#va-overlay)" />
+    <rect x="0.5" y="0.5" width="329" height="123" rx="14" fill="none" stroke="#5E638E" stroke-width="1.1" />
 
-  <g transform="translate(18, 16)">
-    <text x="0" y="8" class="idx">DIRECTORY // GITHUB</text>
-    <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#B2D8E6" text-anchor="end">↗</text>
+    <g transform="translate(18, 16)">
+      <text x="0" y="8" class="idx">DIRECTORY // GITHUB</text>
+      <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#C2C7F0" text-anchor="end">↗</text>
 
-    <text x="0" y="28" class="name">All Public Repositories</text>
+      <text x="0" y="28" class="name">All Public Repositories</text>
 
-    <text x="0" y="46" class="desc">Explore open-source algorithmic tools, academic research</text>
-    <text x="0" y="60" class="desc">experiments, and system software builds on GitHub.</text>
+      <text x="0" y="46" class="desc">Explore open-source algorithmic tools, academic research</text>
+      <text x="0" y="60" class="desc">experiments, and system software builds on GitHub.</text>
 
-    <g transform="translate(0, 74)">
-      <rect x="0" y="0" width="130" height="18" rx="5" fill="#1F2F37" stroke="#486877" stroke-width="0.8" />
-      <text x="65" y="12.5" class="pill" text-anchor="middle">View Full Archive →</text>
+      <g transform="translate(0, 74)">
+        <rect x="0" y="0" width="130" height="18" rx="5" fill="#1C1E2D" stroke="#555A82" stroke-width="0.8" />
+        <text x="65" y="12.5" class="pill" text-anchor="middle">View Full Archive →</text>
+      </g>
     </g>
   </g>
 </svg>
