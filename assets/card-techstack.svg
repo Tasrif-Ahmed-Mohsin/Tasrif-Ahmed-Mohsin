@@ -50,36 +50,42 @@
 
       <rect x="102" y="0" width="38" height="20" rx="4" class="tag-border" />
       <text x="121" y="13.5" font-size="9" class="primary-text" text-anchor="middle">C++</text>
+
+      <rect x="146" y="0" width="34" height="20" rx="4" class="tag-border" />
+      <text x="163" y="13.5" font-size="9" class="primary-text" text-anchor="middle">PHP</text>
     </g>
 
     <g transform="translate(0, 46)">
       <rect x="0" y="0" width="70" height="20" rx="4" class="tag-border" />
       <text x="35" y="13.5" font-size="9" class="primary-text" text-anchor="middle">TypeScript</text>
 
-      <rect x="76" y="0" width="36" height="20" rx="4" class="tag-border" />
-      <text x="94" y="13.5" font-size="9" class="primary-text" text-anchor="middle">SQL</text>
+      <rect x="76" y="0" width="40" height="20" rx="4" class="tag-border" />
+      <text x="96" y="13.5" font-size="9" class="primary-text" text-anchor="middle">MySQL</text>
 
-      <rect x="118" y="0" width="38" height="20" rx="4" class="tag-border" />
-      <text x="137" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Bash</text>
+      <rect x="122" y="0" width="38" height="20" rx="4" class="tag-border" />
+      <text x="141" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Bash</text>
     </g>
   </g>
 
   <!-- Divider Line 1 -->
-  <line x1="206" y1="18" x2="206" y2="126" class="card-inner-box" />
+  <line x1="210" y1="18" x2="210" y2="126" class="card-inner-box" />
 
-  <!-- SECTION 2: AI / ML & VISION -->
-  <g transform="translate(224, 16)">
-    <text x="0" y="8" font-size="9.5" class="meta-text" letter-spacing="0.8">02 // AI &amp; COMPUTER VISION</text>
+  <!-- SECTION 2: FRAMEWORKS & TOOLS -->
+  <g transform="translate(228, 16)">
+    <text x="0" y="8" font-size="9.5" class="meta-text" letter-spacing="0.8">02 // FRAMEWORKS &amp; TOOLS</text>
 
     <g transform="translate(0, 20)">
-      <rect x="0" y="0" width="52" height="20" rx="4" class="tag-border" />
-      <text x="26" y="13.5" font-size="9" class="primary-text" text-anchor="middle">PyTorch</text>
+      <rect x="0" y="0" width="48" height="20" rx="4" class="tag-border" />
+      <text x="24" y="13.5" font-size="9" class="primary-text" text-anchor="middle">FastAPI</text>
 
-      <rect x="58" y="0" width="54" height="20" rx="4" class="tag-border" />
-      <text x="85" y="13.5" font-size="9" class="primary-text" text-anchor="middle">YOLOv10</text>
+      <rect x="54" y="0" width="50" height="20" rx="4" class="tag-border" />
+      <text x="79" y="13.5" font-size="9" class="primary-text" text-anchor="middle">PyTorch</text>
 
-      <rect x="118" y="0" width="52" height="20" rx="4" class="tag-border" />
-      <text x="144" y="13.5" font-size="9" class="primary-text" text-anchor="middle">OpenCV</text>
+      <rect x="110" y="0" width="54" height="20" rx="4" class="tag-border" />
+      <text x="137" y="13.5" font-size="9" class="primary-text" text-anchor="middle">YOLOv10</text>
+
+      <rect x="170" y="0" width="46" height="20" rx="4" class="tag-border" />
+      <text x="193" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Docker</text>
     </g>
 
     <g transform="translate(0, 46)">
@@ -89,32 +95,32 @@
       <rect x="72" y="0" width="56" height="20" rx="4" class="tag-border" />
       <text x="100" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Streamlit</text>
 
-      <rect x="134" y="0" width="46" height="20" rx="4" class="tag-border" />
-      <text x="157" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Folium</text>
+      <rect x="134" y="0" width="48" height="20" rx="4" class="tag-border" />
+      <text x="158" y="13.5" font-size="9" class="primary-text" text-anchor="middle">OpenCV</text>
     </g>
   </g>
 
   <!-- Divider Line 2 -->
-  <line x1="434" y1="18" x2="434" y2="126" class="card-inner-box" />
+  <line x1="454" y1="18" x2="454" y2="126" class="card-inner-box" />
 
   <!-- SECTION 3: DOMAINS -->
-  <g transform="translate(452, 16)">
+  <g transform="translate(470, 16)">
     <text x="0" y="8" font-size="9.5" class="meta-text" letter-spacing="0.8">03 // CORE DOMAINS</text>
 
     <g transform="translate(0, 20)">
       <rect x="0" y="0" width="94" height="20" rx="4" class="tag-border" />
       <text x="47" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Computer Vision</text>
 
-      <rect x="100" y="0" width="92" height="20" rx="4" class="tag-border" />
-      <text x="146" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Graph DFS/BFS</text>
+      <rect x="100" y="0" width="88" height="20" rx="4" class="tag-border" />
+      <text x="144" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Spatial ML</text>
     </g>
 
     <g transform="translate(0, 46)">
       <rect x="0" y="0" width="94" height="20" rx="4" class="tag-border" />
-      <text x="47" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Deterministic State</text>
+      <text x="47" y="13.5" font-size="9" class="primary-text" text-anchor="middle">RESTful Backends</text>
 
-      <rect x="100" y="0" width="92" height="20" rx="4" class="tag-border" />
-      <text x="146" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Embedded C++</text>
+      <rect x="100" y="0" width="88" height="20" rx="4" class="tag-border" />
+      <text x="144" y="13.5" font-size="9" class="primary-text" text-anchor="middle">Graph DFS/BFS</text>
     </g>
   </g>
 </svg>

@@ -38,23 +38,23 @@
   <rect x="1" y="1" width="328" height="116" rx="8" class="card-outline" />
 
   <g transform="translate(18, 16)">
-    <!-- Header Row -->
-    <text x="0" y="8" font-size="9" class="meta-text" letter-spacing="0.8">05 // COMPETITIVE ENG</text>
+    <text x="0" y="8" font-size="9" class="meta-text" letter-spacing="0.8">03 // BACKEND API</text>
     <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" class="title-text" text-anchor="end">↗</text>
 
-    <!-- Title -->
-    <text x="0" y="28" font-size="13" class="primary-text">ICT Fest Hackathon Solution</text>
+    <text x="0" y="28" font-size="13" class="primary-text">CoWork Space REST API</text>
 
-    <!-- Description -->
-    <text x="0" y="45" font-size="10" class="body-text">High-speed algorithmic prototype solution engineered under strict</text>
-    <text x="0" y="58" font-size="10" class="body-text">competitive constraints during the national ICT Fest Hackathon.</text>
+    <text x="0" y="45" font-size="10" class="body-text">Multi-tenant room booking backend with JWT authentication,</text>
+    <text x="0" y="58" font-size="10" class="body-text">SQLAlchemy ORM, and automated single-container Docker setup.</text>
 
-    <!-- Tech Pills -->
     <g transform="translate(0, 72)">
-      <rect x="0" y="0" width="44" height="18" rx="4" class="tag-border" />
-      <text x="22" y="12.5" font-size="8.5" class="tag-text" text-anchor="middle">Python</text>
-      <rect x="50" y="0" width="92" height="18" rx="4" class="tag-border" />
-      <text x="96" y="12.5" font-size="8.5" class="tag-text" text-anchor="middle">Rapid Prototyping</text>
+      <rect x="0" y="0" width="46" height="18" rx="4" class="tag-border" />
+      <text x="23" y="12.5" font-size="8.5" class="tag-text" text-anchor="middle">FastAPI</text>
+      <rect x="52" y="0" width="66" height="18" rx="4" class="tag-border" />
+      <text x="85" y="12.5" font-size="8.5" class="tag-text" text-anchor="middle">SQLAlchemy</text>
+      <rect x="124" y="0" width="46" height="18" rx="4" class="tag-border" />
+      <text x="147" y="12.5" font-size="8.5" class="tag-text" text-anchor="middle">Docker</text>
+      <rect x="176" y="0" width="36" height="18" rx="4" class="tag-border" />
+      <text x="194" y="12.5" font-size="8.5" class="tag-text" text-anchor="middle">JWT</text>
     </g>
   </g>
 </svg>

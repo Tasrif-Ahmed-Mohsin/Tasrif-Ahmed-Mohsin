@@ -35,18 +35,15 @@
     }
   </style>
 
-  <!-- Card Outline -->
   <rect x="1" y="1" width="678" height="126" rx="8" class="card-outline" />
 
-  <!-- Left Content -->
   <g transform="translate(28, 24)">
     <text x="0" y="8" font-size="10" class="meta-text" letter-spacing="0.8">// PORTFOLIO 2026</text>
     <text x="0" y="38" font-size="26" class="primary-text" letter-spacing="-0.5px">Tasrif Ahmed Mohsin</text>
-    <text x="0" y="60" font-size="12" class="body-text">CS Undergrad @ BRAC University · Autonomous Systems &amp; Deep Learning</text>
-    <text x="0" y="78" font-size="11" class="body-text">Computer Vision · Deterministic Robotics · Spatial ML · Graph Algorithms</text>
+    <text x="0" y="60" font-size="12" class="body-text">CS Undergrad @ BRAC University · Full-Stack, ML &amp; Systems Developer</text>
+    <text x="0" y="78" font-size="11" class="body-text">Computer Vision · Spatial ML · FastAPI Backends · Graph Algorithms · Embedded C++</text>
   </g>
 
-  <!-- Right Status Widget -->
   <g transform="translate(548, 22)">
     <rect x="0" y="0" width="104" height="84" rx="6" class="card-inner-box" />
     <text x="52" y="24" font-size="9.5" class="meta-text" text-anchor="middle">STATUS</text>
