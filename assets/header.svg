@@ -1,125 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="800" height="210" style="background: transparent;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" width="480" height="120" style="background: transparent;">
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e17"/>
-      <stop offset="50%" stop-color="#0d1321"/>
-      <stop offset="100%" stop-color="#0a0e17"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
     </linearGradient>
-
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00D4FF"/>
-      <stop offset="100%" stop-color="#7B61FF"/>
-    </linearGradient>
-
-    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#C0C8D8"/>
-    </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="soft-glow">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Inter:wght@300;600;800&amp;display=swap');
-
-    .name {
-      font-family: 'Inter', 'SF Pro Display', -apple-system, sans-serif;
-      font-size: 42px;
-      font-weight: 800;
-      fill: url(#name-grad);
-      letter-spacing: -1.5px;
-    }
-
-    .tagline {
-      font-family: 'JetBrains Mono', 'SF Mono', monospace;
-      font-size: 14px;
-      fill: #64748B;
-      letter-spacing: 0.5px;
-    }
-
-    .accent-text {
-      font-family: 'JetBrains Mono', 'SF Mono', monospace;
-      font-size: 14px;
-      fill: #00D4FF;
-      letter-spacing: 0.5px;
-    }
-
-    .cursor {
-      animation: blink 1s step-end infinite;
-    }
-
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(8px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes slideIn {
-      0% { opacity: 0; transform: translateX(-20px); }
-      100% { opacity: 1; transform: translateX(0); }
-    }
-
-    .fade-in-1 { animation: fadeIn 0.8s ease-out 0.2s both; }
-    .fade-in-2 { animation: fadeIn 0.8s ease-out 0.6s both; }
-    .fade-in-3 { animation: fadeIn 0.8s ease-out 1.0s both; }
-    .slide-in { animation: slideIn 0.6s ease-out 1.4s both; }
+    .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 28px; font-weight: 700; fill: #FFFFFF; letter-spacing: -0.8px; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; font-weight: 400; fill: #666666; letter-spacing: 0.3px; }
+    .cursor { animation: blink 1.2s step-end infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
   </style>
 
-  <!-- Background -->
-  <rect width="800" height="210" rx="16" fill="url(#bg-grad)"/>
-
-  <!-- Subtle accent glow orb -->
-  <circle cx="680" cy="50" r="80" fill="#00D4FF" opacity="0.04" filter="url(#soft-glow)"/>
-  <circle cx="120" cy="170" r="60" fill="#7B61FF" opacity="0.03" filter="url(#soft-glow)"/>
-
-  <!-- Top accent line -->
-  <rect x="40" y="32" width="48" height="3" rx="1.5" fill="url(#accent-grad)" class="fade-in-1"/>
-
-  <!-- Greeting line -->
-  <text x="40" y="68" class="tagline fade-in-1">
-    <tspan>$ whoami</tspan>
-  </text>
-
-  <!-- Name -->
-  <text x="40" y="120" class="name fade-in-2">Tasrif Ahmed Mohsin</text>
-
-  <!-- Tagline with typing cursor -->
-  <g class="fade-in-3">
-    <text x="40" y="155" class="tagline">
-      <tspan>CS Undergrad @ BRAC University</tspan>
-    </text>
-    <text x="40" y="178" class="accent-text">
-      <tspan>Computer Vision</tspan>
-      <tspan fill="#334155"> · </tspan>
-      <tspan fill="#FFB800">Deep Learning</tspan>
-      <tspan fill="#334155"> · </tspan>
-      <tspan fill="#7B61FF">Robotics</tspan>
-      <tspan fill="#334155"> · </tspan>
-      <tspan fill="#34D399">Graph Algorithms</tspan>
-    </text>
-  </g>
-
-  <!-- Blinking cursor -->
-  <rect x="400" y="163" width="2" height="18" rx="1" fill="#00D4FF" class="cursor slide-in"/>
-
-  <!-- Bottom subtle border -->
-  <rect x="40" y="198" width="720" height="1" rx="0.5" fill="#1E293B" opacity="0.6" class="fade-in-3"/>
+  <rect width="480" height="120" rx="10" fill="url(#bg)"/>
+  <rect x="28" y="28" width="32" height="2" rx="1" fill="#333333"/>
+  <text x="28" y="66" class="name">Tasrif Ahmed Mohsin</text>
+  <text x="28" y="90" class="sub">CS @ BRAC University · builds things that see, think, and move</text>
+  <rect x="423" y="78" width="1.5" height="14" rx="0.75" fill="#555555" class="cursor"/>
 </svg>
