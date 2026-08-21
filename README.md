@@ -67,12 +67,12 @@
 <br/><br/>
 
 <!-- DIRECT TEXT LINKS FOR ACCESSIBILITY -->
-<p align="center" style="font-size: 11px; color: #64748B;">
-  <a href="https://www.tasrif.tech/" style="color: #648492; text-decoration: none;"><b>tasrif.tech</b></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/tasrif-ahmed-mohsin/" style="color: #648492; text-decoration: none;"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="mailto:tasrifahmedmohsin@gmail.com" style="color: #648492; text-decoration: none;"><b>Email</b></a> &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/tasrif.ahmed.mohsin/" style="color: #648492; text-decoration: none;"><b>Instagram</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/Tasrif-Ahmed-Mohsin" style="color: #648492; text-decoration: none;"><b>GitHub</b></a>
+<p align="center" style="font-size: 11px; color: #587C9E;">
+  <a href="https://www.tasrif.tech/" style="color: #6D98C4; text-decoration: none;"><b>tasrif.tech</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/tasrif-ahmed-mohsin/" style="color: #6D98C4; text-decoration: none;"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:tasrifahmedmohsin@gmail.com" style="color: #6D98C4; text-decoration: none;"><b>Email</b></a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/tasrif.ahmed.mohsin/" style="color: #6D98C4; text-decoration: none;"><b>Instagram</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/Tasrif-Ahmed-Mohsin" style="color: #6D98C4; text-decoration: none;"><b>GitHub</b></a>
 </p>
 
 </div>
