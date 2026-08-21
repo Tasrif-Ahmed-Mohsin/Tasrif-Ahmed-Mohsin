@@ -1,49 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 86" width="100%" height="100%" style="background: transparent;">
-  <defs>
-    <!-- Mathematical Seigaiha Concentric Japanese Wave Vector Pattern -->
-    <pattern id="seigaiha" width="40" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 0 20 A 20 20 0 0 1 40 20 M 5 20 A 15 15 0 0 1 35 20 M 10 20 A 10 10 0 0 1 30 20 M 15 20 A 5 5 0 0 1 25 20 M -20 10 A 20 20 0 0 1 20 10 M -15 10 A 15 15 0 0 1 15 10 M -10 10 A 10 10 0 0 1 10 10 M -5 10 A 5 5 0 0 1 5 10 M 20 10 A 20 20 0 0 1 60 10 M 25 10 A 15 15 0 0 1 55 10 M 30 10 A 10 10 0 0 1 50 10 M 35 10 A 5 5 0 0 1 45 10 M 0 0 A 20 20 0 0 1 40 0 M 5 0 A 15 15 0 0 1 35 0 M 10 0 A 10 10 0 0 1 30 0 M 15 0 A 5 5 0 0 1 25 0" fill="none" class="wave-stroke" stroke-width="0.75" />
-    </pattern>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 78" width="100%" height="100%" style="background: transparent;">
   <style>
-    /* Default / Light Mode */
-    .card-bg { fill: rgba(248, 250, 252, 0.6); stroke: #CBD5E1; }
-    .card-inner { fill: rgba(241, 245, 249, 0.7); stroke: #E2E8F0; }
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #0F172A; }
-    .sub { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif; fill: #475569; }
-    .meta { font-family: 'SF Mono', 'JetBrains Mono', Consolas, monospace; font-weight: 600; fill: #2563EB; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif; fill: #475569; }
-    .pill-bg { fill: rgba(15, 23, 42, 0.04); stroke: #CBD5E1; }
-    .pill-txt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 600; fill: #334155; }
-    .icon { stroke: #2563EB; }
-    .wave-stroke { stroke: #2563EB; opacity: 0.14; }
-    .wave-art { fill: #2563EB; opacity: 0.07; }
-    .wave-foam { stroke: #2563EB; opacity: 0.25; }
+    /* Default / Universal Fallback */
+    .card-outline { fill: none; stroke: #30363D; stroke-width: 1; }
+    .card-inner-box { fill: none; stroke: #30363D; stroke-width: 0.8; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #58A6FF; }
+    .primary-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; fill: #C9D1D9; }
+    .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; fill: #8B949E; }
+    .meta-text { font-family: 'SF Mono', 'JetBrains Mono', Consolas, monospace; font-weight: 600; fill: #58A6FF; }
+    .tag-border { fill: none; stroke: #30363D; stroke-width: 0.8; }
+    .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #8B949E; }
 
-    /* GitHub Dark Mode */
+    /* Explicit Light Mode */
+    @media (prefers-color-scheme: light) {
+      .card-outline { stroke: #D0D7DE; }
+      .card-inner-box { stroke: #D0D7DE; }
+      .title-text { fill: #0969DA; }
+      .primary-text { fill: #1F2328; }
+      .body-text { fill: #656D76; }
+      .meta-text { fill: #0969DA; }
+      .tag-border { stroke: #D0D7DE; }
+      .tag-text { fill: #656D76; }
+    }
+
+    /* Explicit Dark Mode */
     @media (prefers-color-scheme: dark) {
-      .card-bg { fill: rgba(22, 27, 34, 0.65); stroke: #30363D; }
-      .card-inner { fill: rgba(13, 17, 23, 0.75); stroke: #21262D; }
-      .title { fill: #F0F6FC; }
-      .sub { fill: #8B949E; }
-      .meta { fill: #58A6FF; }
-      .desc { fill: #8B949E; }
-      .pill-bg { fill: rgba(240, 246, 252, 0.06); stroke: #30363D; }
-      .pill-txt { fill: #C9D1D9; }
-      .icon { stroke: #58A6FF; }
-      .wave-stroke { stroke: #58A6FF; opacity: 0.16; }
-      .wave-art { fill: #58A6FF; opacity: 0.08; }
-      .wave-foam { stroke: #58A6FF; opacity: 0.35; }
+      .card-outline { stroke: #30363D; }
+      .card-inner-box { stroke: #30363D; }
+      .title-text { fill: #58A6FF; }
+      .primary-text { fill: #F0F6FC; }
+      .body-text { fill: #8B949E; }
+      .meta-text { fill: #58A6FF; }
+      .tag-border { stroke: #30363D; }
+      .tag-text { fill: #8B949E; }
     }
   </style>
 
-  <rect x="1" y="1" width="678" height="84" rx="8" class="card-bg" stroke-width="1.1" />
-  <rect x="2" y="2" width="676" height="82" rx="8" fill="url(#seigaiha)" />
+  <rect x="1" y="1" width="678" height="76" rx="8" class="card-outline" />
 
   <g transform="translate(24, 18)">
-    <text x="0" y="8" font-size="10" font-weight="700" class="meta" letter-spacing="1.2">OVERVIEW</text>
-    <text x="0" y="30" font-size="11.5" class="title">Computer science engineer building real-time vision pipelines (YOLOv10 / PyTorch) and deterministic robotics software.</text>
-    <text x="0" y="48" font-size="10.5" class="desc">Focused on mathematically rigorous graph search, robust embedded state machines, and production-grade architectures.</text>
+    <text x="0" y="8" font-size="9.5" class="meta-text" letter-spacing="1">ABOUT</text>
+    <text x="0" y="28" font-size="12" class="primary-text">Building production-grade Computer Vision pipelines (YOLOv10 / PyTorch) and deterministic robotics software.</text>
+    <text x="0" y="46" font-size="11" class="body-text">Focused on graph search algorithms, embedded state machines, and reliable software architecture.</text>
   </g>
 </svg>
