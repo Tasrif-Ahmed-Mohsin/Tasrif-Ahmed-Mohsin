@@ -1,7 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 140" width="660" height="140" style="background: transparent;">
-  <rect width="660" height="140" rx="18" fill="#6B8590"/>
-  <rect x="28" y="24" width="36" height="3" rx="1.5" fill="#8EA3A9"/>
-  <text x="28" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="#E0EAED" letter-spacing="-1px">Tasrif Ahmed Mohsin</text>
-  <text x="28" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400" fill="#8EA3A9">CS Undergrad @ BRAC University</text>
-  <text x="28" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="400" fill="#7A969D">Computer Vision · Deep Learning · Robotics · Graph Algorithms</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 136" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <linearGradient id="hdr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22343E" />
+      <stop offset="100%" stop-color="#2D4451" />
+    </linearGradient>
+    <linearGradient id="badge-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#769BAA" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#557A88" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 27px; font-weight: 700; fill: #F4F8FA; letter-spacing: -0.6px; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #B2CAD3; }
+    .meta { font-family: 'SF Mono', 'JetBrains Mono', Consolas, Monaco, monospace; font-size: 10px; font-weight: 600; fill: #7E9FA9; letter-spacing: 0.5px; }
+    .pill-txt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #D7E7EC; }
+  </style>
+
+  <!-- Card Base -->
+  <rect x="1" y="1" width="678" height="134" rx="20" fill="url(#hdr-bg)" stroke="#435F6E" stroke-width="1.2" />
+
+  <!-- Left Content -->
+  <g transform="translate(32, 28)">
+    <!-- Top System Label -->
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="5" r="3" fill="#8BB3C2" />
+      <text x="14" y="8" class="meta">SYSTEM // PORTFOLIO 2026</text>
+    </g>
+
+    <!-- Main Name -->
+    <text x="0" y="42" class="title">Tasrif Ahmed Mohsin</text>
+
+    <!-- Subtitle & Focus Area -->
+    <text x="0" y="66" class="sub">CS Undergrad @ BRAC University · Autonomous Systems &amp; Deep Learning</text>
+    <text x="0" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="#80A0AB">Computer Vision · Deterministic Robotics · Spatial Intelligence · Graph Algorithms</text>
+  </g>
+
+  <!-- Right Decorative Micro-Widget (Lockscreen/Bento Aesthetic) -->
+  <g transform="translate(540, 24)">
+    <rect x="0" y="0" width="108" height="88" rx="14" fill="url(#badge-glow)" stroke="#4F6D7C" stroke-width="1" />
+    
+    <!-- Time/Status Stamp -->
+    <text x="54" y="24" class="meta" text-anchor="middle" fill="#95B5C1">ACTIVE</text>
+    <text x="54" y="52" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="22" font-weight="700" fill="#E6F2F6" text-anchor="middle">DHAKA</text>
+    <text x="54" y="72" class="meta" text-anchor="middle" fill="#7599A6">UTC+6</text>
+  </g>
 </svg>

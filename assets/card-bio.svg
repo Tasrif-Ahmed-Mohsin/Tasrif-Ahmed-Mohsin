@@ -1,7 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 90" width="660" height="90" style="background: transparent;">
-  <rect width="660" height="90" rx="16" fill="#9BB4BC"/>
-  <text x="28" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#4A6068" letter-spacing="1.5">ABOUT</text>
-  <text x="28" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#3C5560">CS undergrad at BRAC University who builds things that see, think, and move —</text>
-  <text x="28" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#3C5560">from real-time gun detection with YOLOv10 to autonomous robotics engines</text>
-  <text x="28" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#5A7580">Production-grade code, not just prototypes.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 86" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <linearGradient id="bio-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#344C58" />
+      <stop offset="100%" stop-color="#3E5967" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bio-title { font-family: 'SF Mono', 'JetBrains Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #8CB1BF; letter-spacing: 1.2px; }
+    .bio-body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #E5EFF2; line-height: 1.5; }
+    .bio-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10.5px; fill: #97B6C2; }
+  </style>
+
+  <rect x="1" y="1" width="678" height="84" rx="16" fill="url(#bio-bg)" stroke="#517282" stroke-width="1.1" />
+
+  <g transform="translate(24, 18)">
+    <text x="0" y="8" class="bio-title">OVERVIEW</text>
+    <text x="0" y="30" class="bio-body">Computer science engineer building real-time vision pipelines (YOLOv10 / PyTorch) and deterministic robotics software.</text>
+    <text x="0" y="48" class="bio-sub">Focused on mathematically rigorous graph search, robust embedded state machines, and production-grade architectures.</text>
+  </g>
 </svg>

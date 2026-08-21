@@ -1,16 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 70" width="660" height="70" style="background: transparent;">
-  <rect width="660" height="70" rx="16" fill="#485F68"/>
-  <text x="28" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#8EA3A9" letter-spacing="1.5">CONNECT</text>
-  <g transform="translate(28, 38)">
-    <rect x="0" y="0" width="82" height="22" rx="6" fill="#5A7580"/>
-    <text x="41" y="15" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#D8E4E7" text-anchor="middle">↗ tasrif.tech</text>
-    <rect x="88" y="0" width="68" height="22" rx="6" fill="#5A7580"/>
-    <text x="122" y="15" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#D8E4E7" text-anchor="middle">LinkedIn</text>
-    <rect x="162" y="0" width="54" height="22" rx="6" fill="#5A7580"/>
-    <text x="189" y="15" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#D8E4E7" text-anchor="middle">Email</text>
-    <rect x="222" y="0" width="72" height="22" rx="6" fill="#5A7580"/>
-    <text x="258" y="15" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#D8E4E7" text-anchor="middle">Instagram</text>
-    <rect x="300" y="0" width="60" height="22" rx="6" fill="#5A7580"/>
-    <text x="330" y="15" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#D8E4E7" text-anchor="middle">GitHub</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 58" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <linearGradient id="conn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2F38" />
+      <stop offset="100%" stop-color="#263A46" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .dock-title { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #86ABBA; letter-spacing: 1.2px; }
+    .dock-btn { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #D7E8EE; }
+  </style>
+
+  <rect x="1" y="1" width="678" height="56" rx="14" fill="url(#conn-bg)" stroke="#3D5967" stroke-width="1.1" />
+
+  <!-- Content Row -->
+  <g transform="translate(24, 16)">
+    <text x="0" y="17" class="dock-title">COMMUNICATIONS</text>
+
+    <!-- Buttons -->
+    <g transform="translate(140, 0)">
+      <!-- Official Web -->
+      <rect x="0" y="0" width="102" height="26" rx="7" fill="#2E4552" stroke="#486878" stroke-width="0.8" />
+      <text x="51" y="17" class="dock-btn" text-anchor="middle">↗ tasrif.tech</text>
+
+      <!-- LinkedIn -->
+      <rect x="110" y="0" width="88" height="26" rx="7" fill="#2E4552" stroke="#486878" stroke-width="0.8" />
+      <text x="154" y="17" class="dock-btn" text-anchor="middle">LinkedIn</text>
+
+      <!-- Email -->
+      <rect x="206" y="0" width="76" height="26" rx="7" fill="#2E4552" stroke="#486878" stroke-width="0.8" />
+      <text x="244" y="17" class="dock-btn" text-anchor="middle">✉ Email</text>
+
+      <!-- Instagram -->
+      <rect x="290" y="0" width="94" height="26" rx="7" fill="#2E4552" stroke="#486878" stroke-width="0.8" />
+      <text x="337" y="17" class="dock-btn" text-anchor="middle">Instagram</text>
+
+      <!-- GitHub -->
+      <rect x="392" y="0" width="88" height="26" rx="7" fill="#2E4552" stroke="#486878" stroke-width="0.8" />
+      <text x="436" y="17" class="dock-btn" text-anchor="middle">GitHub</text>
+    </g>
   </g>
 </svg>

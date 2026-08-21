@@ -1,18 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" width="320" height="150" style="background: transparent;">
-  <rect width="320" height="150" rx="16" fill="#6B8590"/>
-  <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#E0EAED">🎯</text>
-  <text x="46" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#E0EAED">Gun Detection — YOLOv10</text>
-  <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">Real-time firearm detection and</text>
-  <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">localization using deep learning</text>
-  <text x="20" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">inference on live video streams.</text>
-  <g transform="translate(20, 110)">
-    <rect x="0" y="0" width="52" height="22" rx="6" fill="#5A7580"/>
-    <text x="26" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Python</text>
-    <rect x="58" y="0" width="56" height="22" rx="6" fill="#5A7580"/>
-    <text x="86" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">PyTorch</text>
-    <rect x="120" y="0" width="56" height="22" rx="6" fill="#5A7580"/>
-    <text x="148" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">OpenCV</text>
-    <rect x="182" y="0" width="60" height="22" rx="6" fill="#5A7580"/>
-    <text x="212" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">YOLOv10</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 124" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <linearGradient id="card-p1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23353F" />
+      <stop offset="100%" stop-color="#2B404D" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .idx { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #83A7B5; letter-spacing: 1px; }
+    .name { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: 700; fill: #F0F6F8; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif; font-size: 10px; fill: #A7C2CD; line-height: 1.35; }
+    .pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 8.5px; font-weight: 600; fill: #D0E4EC; }
+  </style>
+
+  <rect x="1" y="1" width="328" height="122" rx="14" fill="url(#card-p1)" stroke="#42606E" stroke-width="1" />
+
+  <g transform="translate(18, 16)">
+    <!-- Header row -->
+    <text x="0" y="8" class="idx">01 // COMPUTER VISION</text>
+    <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#8BB2C2" text-anchor="end">↗</text>
+
+    <!-- Title -->
+    <text x="0" y="28" class="name">Gun Detection · YOLOv10</text>
+
+    <!-- Description -->
+    <text x="0" y="46" class="desc">Real-time localized firearm identification &amp; deep learning</text>
+    <text x="0" y="60" class="desc">inference pipeline optimized for low-latency live video feeds.</text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 74)">
+      <rect x="0" y="0" width="46" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="23" y="12.5" class="pill" text-anchor="middle">Python</text>
+
+      <rect x="52" y="0" width="50" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="77" y="12.5" class="pill" text-anchor="middle">PyTorch</text>
+
+      <rect x="108" y="0" width="50" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="133" y="12.5" class="pill" text-anchor="middle">OpenCV</text>
+
+      <rect x="164" y="0" width="56" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="192" y="12.5" class="pill" text-anchor="middle">YOLOv10</text>
+    </g>
   </g>
 </svg>

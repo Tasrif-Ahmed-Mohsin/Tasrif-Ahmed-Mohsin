@@ -1,19 +1,19 @@
 <div align="center">
 
-<!-- HEADER CARD -->
+<!-- SYSTEM HEADER CARD -->
 <a href="https://www.tasrif.tech/">
-  <img src="assets/header.svg" alt="Tasrif Ahmed Mohsin" width="100%" style="max-width: 660px;" />
+  <img src="assets/header.svg" alt="Tasrif Ahmed Mohsin" width="100%" style="max-width: 680px;" />
 </a>
 
 <br/><br/>
 
-<!-- BIO CARD -->
-<img src="assets/card-bio.svg" alt="About Tasrif" width="100%" style="max-width: 660px;" />
+<!-- SYSTEM OVERVIEW CARD -->
+<img src="assets/card-bio.svg" alt="System Overview" width="100%" style="max-width: 680px;" />
 
 <br/><br/>
 
-<!-- FEATURED PROJECTS -->
-<table border="0" cellpadding="0" cellspacing="8">
+<!-- FEATURED BUILDS (2x3 BENTO GRID) -->
+<table border="0" cellpadding="0" cellspacing="6" width="100%" style="max-width: 680px; border-collapse: separate;">
   <tr>
     <td width="50%">
       <a href="https://github.com/Tasrif-Ahmed-Mohsin/Gun-detection-with-yolov10">
@@ -54,14 +54,25 @@
 
 <br/>
 
-<!-- TECH STACK CARD -->
-<img src="assets/card-techstack.svg" alt="Tech Stack" width="100%" style="max-width: 660px;" />
+<!-- TECHNICAL ARSENAL CARD -->
+<img src="assets/card-techstack.svg" alt="Technical Arsenal" width="100%" style="max-width: 680px;" />
 
 <br/><br/>
 
-<!-- CONNECT CARD -->
+<!-- COMMUNICATIONS DOCK -->
 <a href="https://www.tasrif.tech/">
-  <img src="assets/card-connect.svg" alt="Connect with Tasrif" width="100%" style="max-width: 660px;" />
+  <img src="assets/card-connect.svg" alt="Communications Dock" width="100%" style="max-width: 680px;" />
 </a>
+
+<br/><br/>
+
+<!-- DIRECT TEXT LINKS FOR ACCESSIBILITY -->
+<p align="center" style="font-size: 11px; color: #64748B;">
+  <a href="https://www.tasrif.tech/" style="color: #648492; text-decoration: none;"><b>tasrif.tech</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/tasrif-ahmed-mohsin/" style="color: #648492; text-decoration: none;"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:tasrifahmedmohsin@gmail.com" style="color: #648492; text-decoration: none;"><b>Email</b></a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/tasrif.ahmed.mohsin/" style="color: #648492; text-decoration: none;"><b>Instagram</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/Tasrif-Ahmed-Mohsin" style="color: #648492; text-decoration: none;"><b>GitHub</b></a>
+</p>
 
 </div>

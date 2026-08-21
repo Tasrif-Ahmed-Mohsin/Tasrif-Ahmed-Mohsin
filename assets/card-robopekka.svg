@@ -1,16 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" width="320" height="150" style="background: transparent;">
-  <rect width="320" height="150" rx="16" fill="#6B8590"/>
-  <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#E0EAED">🤖</text>
-  <text x="46" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#E0EAED">Robo-Pekka Robotics Engine</text>
-  <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">Deterministic autonomous engine</text>
-  <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">with finite state machines and</text>
-  <text x="20" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8EA3A9">real-time sensor telemetry.</text>
-  <g transform="translate(20, 110)">
-    <rect x="0" y="0" width="38" height="22" rx="6" fill="#5A7580"/>
-    <text x="19" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">C++</text>
-    <rect x="44" y="0" width="70" height="22" rx="6" fill="#5A7580"/>
-    <text x="79" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">Embedded</text>
-    <rect x="120" y="0" width="95" height="22" rx="6" fill="#5A7580"/>
-    <text x="167" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#B8CDD2" text-anchor="middle">State Machines</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 124" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <linearGradient id="card-p4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23353F" />
+      <stop offset="100%" stop-color="#2B404D" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .idx { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #83A7B5; letter-spacing: 1px; }
+    .name { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: 700; fill: #F0F6F8; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif; font-size: 10px; fill: #A7C2CD; line-height: 1.35; }
+    .pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 8.5px; font-weight: 600; fill: #D0E4EC; }
+  </style>
+
+  <rect x="1" y="1" width="328" height="122" rx="14" fill="url(#card-p4)" stroke="#42606E" stroke-width="1" />
+
+  <g transform="translate(18, 16)">
+    <text x="0" y="8" class="idx">04 // EMBEDDED ROBOTICS</text>
+    <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#8BB2C2" text-anchor="end">↗</text>
+
+    <text x="0" y="28" class="name">Robo-Pekka Robotics Engine</text>
+
+    <text x="0" y="46" class="desc">Deterministic autonomous C++ firmware engine designed with</text>
+    <text x="0" y="60" class="desc">finite state machines and real-time telemetry processing.</text>
+
+    <g transform="translate(0, 74)">
+      <rect x="0" y="0" width="36" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="18" y="12.5" class="pill" text-anchor="middle">C++</text>
+
+      <rect x="42" y="0" width="60" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="72" y="12.5" class="pill" text-anchor="middle">Embedded</text>
+
+      <rect x="108" y="0" width="84" height="18" rx="5" fill="#1A2830" stroke="#3A5564" stroke-width="0.8" />
+      <text x="150" y="12.5" class="pill" text-anchor="middle">State Machines</text>
+    </g>
   </g>
 </svg>
