@@ -1,53 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 128" width="100%" height="100%" style="background: transparent;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 110" width="100%" height="100%" style="background: transparent;">
   <style>
     /* Default / Universal Fallback */
     .card-outline { fill: none; stroke: #30363D; stroke-width: 1; }
-    .card-inner-box { fill: none; stroke: #30363D; stroke-width: 0.8; }
     .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #58A6FF; }
-    .primary-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; fill: #C9D1D9; }
+    .primary-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #C9D1D9; }
     .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; fill: #8B949E; }
     .meta-text { font-family: 'SF Mono', 'JetBrains Mono', Consolas, monospace; font-weight: 600; fill: #58A6FF; }
-    .tag-border { fill: none; stroke: #30363D; stroke-width: 0.8; }
-    .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #8B949E; }
 
     /* Explicit Light Mode */
     @media (prefers-color-scheme: light) {
       .card-outline { stroke: #D0D7DE; }
-      .card-inner-box { stroke: #D0D7DE; }
       .title-text { fill: #0969DA; }
       .primary-text { fill: #1F2328; }
       .body-text { fill: #656D76; }
       .meta-text { fill: #0969DA; }
-      .tag-border { stroke: #D0D7DE; }
-      .tag-text { fill: #656D76; }
     }
 
     /* Explicit Dark Mode */
     @media (prefers-color-scheme: dark) {
       .card-outline { stroke: #30363D; }
-      .card-inner-box { stroke: #30363D; }
       .title-text { fill: #58A6FF; }
       .primary-text { fill: #F0F6FC; }
       .body-text { fill: #8B949E; }
       .meta-text { fill: #58A6FF; }
-      .tag-border { stroke: #30363D; }
-      .tag-text { fill: #8B949E; }
     }
   </style>
 
-  <rect x="1" y="1" width="678" height="126" rx="8" class="card-outline" />
+  <!-- Card Outline -->
+  <rect x="1" y="1" width="678" height="108" rx="8" class="card-outline" />
 
-  <g transform="translate(28, 24)">
+  <!-- Content -->
+  <g transform="translate(28, 22)">
     <text x="0" y="8" font-size="10" class="meta-text" letter-spacing="0.8">// PORTFOLIO 2026</text>
     <text x="0" y="38" font-size="26" class="primary-text" letter-spacing="-0.5px">Tasrif Ahmed Mohsin</text>
     <text x="0" y="60" font-size="12" class="body-text">CS Undergrad @ BRAC University · Full-Stack, ML &amp; Systems Developer</text>
     <text x="0" y="78" font-size="11" class="body-text">Computer Vision · Spatial ML · FastAPI Backends · Graph Algorithms · Embedded C++</text>
-  </g>
-
-  <g transform="translate(548, 22)">
-    <rect x="0" y="0" width="104" height="84" rx="6" class="card-inner-box" />
-    <text x="52" y="24" font-size="9.5" class="meta-text" text-anchor="middle">STATUS</text>
-    <text x="52" y="48" font-size="18" class="primary-text" text-anchor="middle">DHAKA</text>
-    <text x="52" y="68" font-size="9.5" class="body-text" text-anchor="middle">UTC+6</text>
   </g>
 </svg>

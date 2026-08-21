@@ -2,7 +2,6 @@
   <style>
     /* Default / Universal Fallback */
     .card-outline { fill: none; stroke: #30363D; stroke-width: 1; }
-    .card-inner-box { fill: none; stroke: #30363D; stroke-width: 0.8; }
     .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #58A6FF; }
     .primary-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; fill: #C9D1D9; }
     .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; fill: #8B949E; }
@@ -13,7 +12,6 @@
     /* Explicit Light Mode */
     @media (prefers-color-scheme: light) {
       .card-outline { stroke: #D0D7DE; }
-      .card-inner-box { stroke: #D0D7DE; }
       .title-text { fill: #0969DA; }
       .primary-text { fill: #1F2328; }
       .body-text { fill: #656D76; }
@@ -25,7 +23,6 @@
     /* Explicit Dark Mode */
     @media (prefers-color-scheme: dark) {
       .card-outline { stroke: #30363D; }
-      .card-inner-box { stroke: #30363D; }
       .title-text { fill: #58A6FF; }
       .primary-text { fill: #F0F6FC; }
       .body-text { fill: #8B949E; }
@@ -38,13 +35,13 @@
   <rect x="1" y="1" width="328" height="116" rx="8" class="card-outline" />
 
   <g transform="translate(18, 16)">
-    <text x="0" y="8" font-size="9" class="meta-text" letter-spacing="0.8">06 // FULL-STACK & SYSTEMS</text>
+    <text x="0" y="8" font-size="9" class="meta-text" letter-spacing="0.8">06 // FULL-STACK &amp; SYSTEMS</text>
     <text x="294" y="8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" class="title-text" text-anchor="end">↗</text>
 
     <text x="0" y="28" font-size="13" class="primary-text">All 28 Repositories</text>
 
-    <text x="0" y="45" font-size="10" class="body-text">Full-stack e-commerce (AgriCommerce), tournament databases</text>
-    <text x="0" y="58" font-size="10" class="body-text">(PHP/MySQL), parking management systems, and DSA archives.</text>
+    <text x="0" y="45" font-size="10" class="body-text">Explore open-source algorithmic tools, academic research</text>
+    <text x="0" y="58" font-size="10" class="body-text">experiments, and system software builds on GitHub.</text>
 
     <g transform="translate(0, 72)">
       <rect x="0" y="0" width="62" height="18" rx="4" class="tag-border" />

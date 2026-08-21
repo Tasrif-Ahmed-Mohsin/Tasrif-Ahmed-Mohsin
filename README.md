@@ -3,9 +3,6 @@
 <!-- SYSTEM HEADER CARD -->
 <a href="https://www.tasrif.tech/"><img src="assets/header.svg" alt="Tasrif Ahmed Mohsin" width="100%" style="max-width: 680px; display: block; margin-bottom: 8px;" /></a>
 
-<!-- SYSTEM OVERVIEW CARD -->
-<img src="assets/card-bio.svg" alt="System Overview" width="100%" style="max-width: 680px; display: block; margin-bottom: 8px;" />
-
 <!-- FEATURED BUILDS (2x3 BENTO GRID) -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 680px; border-collapse: collapse; margin-bottom: 8px;">
   <tr>
